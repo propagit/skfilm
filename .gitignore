@@ -1,0 +1,4 @@
+# git ignore
+
+callforentries/application/config/config.php
+callforentries/application/config/database.php
