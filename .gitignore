@@ -2,3 +2,4 @@
 
 callforentries/application/config/config.php
 callforentries/application/config/database.php
+callforentries/application/models/cute_model.php
