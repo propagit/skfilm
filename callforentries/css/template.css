@@ -1,0 +1,27 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+@import url(http://fonts.googleapis.com/css?family=Karla);
+.page_heading
+{
+	font-size:15px; 
+	font-family: 'Karla', sans-serif;/*font-family:'Quicksand',sans-serif; */
+	font-weight:bold; color:#00ffff; text-transform:uppercase;
+}
+.page_subheading
+{
+	font-size:15px; 
+	font-family: 'Karla', sans-serif;
+	/*font-family:'Quicksand',sans-serif; */
+	font-weight:bold; color:#00ffff;
+}
+.page_boldheading
+{
+	font-size:15px; 
+	font-family: 'Karla', sans-serif; /*font-family:'Quicksand',sans-serif;*/ font-weight:bold; color:#fff;
+}
+.page_text
+{
+	font-size:14px; 
+	font-family: 'Karla', sans-serif; /*font-family:'Quicksand',sans-serif;*/ color:#ece6f1; font-weight:normal; line-height:21px;
+}
+
+body {background:#382451;}
