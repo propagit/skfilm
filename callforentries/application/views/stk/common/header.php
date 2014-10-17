@@ -125,7 +125,7 @@
             <div class="timer_st timer">
                 000D 00H 00M 00S
             </div>
-            <span class="mob-timer-label pull">Until the St Kilda Film Festival starts</span>
+            <span class="mob-timer-label pull"> - Kilda Film Festival starts</span>
         </div>
         <!--end mob nav-->
     </div>
