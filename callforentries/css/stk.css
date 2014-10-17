@@ -529,7 +529,7 @@ dl dd { float:right; position:relative; }
 
 #footer-wrap{
 	margin-top:20px;	
-	margin-bottom:30px;
+	padding-bottom:30px;
 }
 
 /* Carousel - Changed to fade from slide */
