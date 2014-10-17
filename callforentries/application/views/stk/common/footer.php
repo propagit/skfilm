@@ -36,7 +36,7 @@
                         <a target="_blank" href="http://www.youtube.com/user/stkildafilmfest"><i class="fa fa-youtube"></i></a>
                         <a target="_blank" href="mailto:filmfest@portphillip.vic.gov.au"><i class="fa fa-envelope"></i></a>
                     </div>
-                    <div class="col-sm-6 col-xs-12 remove-gutters">
+                    <div class="col-sm-6 col-xs-12 remove-gutters hidden-sm hidden-xs">
                         <div class="subscribe-box">
                             <input type="text" id="email-footer" placeholder="subscribe - your@email-address" />
                             <input type="button" onclick="subscribe1('email-footer');" value="GO"/>
@@ -73,35 +73,13 @@
     
 <script src="<?=base_url()?>js/countdown.js"></script>
 <script>
-function subscribe() {
-	var email = $('#email').val();
-	$.ajax({
-		url: '<?=base_url()?>subscribe',
-		type: 'POST',
-		data: ({email:email}),
-		dataType: "html",
-		success: function(html) {
-			if (html == 0) {
-				$('#submsg').css('color','#ff0000');
-				$('#submsg').html('Please enter a valid email address');
-				$('#submsg').slideDown();
-			}
-			if (html == 1) {
-				$('#submsg').css('color','#008000');
-				$('#submsg').html('You have subscribed successfully!');
-				$('#submsg').slideDown();
-			}
-			if (html == 2) {
-				$('#submsg').css('color','#000');
-				$('#submsg').html('You have already subscribed!');
-				$('#submsg').slideDown();
-			}
-		}
-	})	
-	
-}
 $(function(){
 	
+	// remove onclick event to toggle nav dropdown - on hover event is managed throught css
+	$('.stk-nav-dd').click(function(e){
+		e.stopPropagation();
+	});
+		
 	hidegenre();
 	
 	var note = $('.timer_st'),
@@ -138,6 +116,34 @@ $(function(){
 	});
 
 });
+
+function subscribe() {
+	var email = $('#email').val();
+	$.ajax({
+		url: '<?=base_url()?>subscribe',
+		type: 'POST',
+		data: ({email:email}),
+		dataType: "html",
+		success: function(html) {
+			if (html == 0) {
+				$('#submsg').css('color','#ff0000');
+				$('#submsg').html('Please enter a valid email address');
+				$('#submsg').slideDown();
+			}
+			if (html == 1) {
+				$('#submsg').css('color','#008000');
+				$('#submsg').html('You have subscribed successfully!');
+				$('#submsg').slideDown();
+			}
+			if (html == 2) {
+				$('#submsg').css('color','#000');
+				$('#submsg').html('You have already subscribed!');
+				$('#submsg').slideDown();
+			}
+		}
+	})	
+	
+}
 
 function hidegenre() {
 	var check = $('#soundcheck').attr('checked');

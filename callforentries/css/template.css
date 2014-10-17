@@ -5,6 +5,7 @@
 	font-size:15px; 
 	font-family: 'Karla', sans-serif;/*font-family:'Quicksand',sans-serif; */
 	font-weight:bold; color:#00ffff; text-transform:uppercase;
+	margin-top:0;
 }
 .page_subheading
 {

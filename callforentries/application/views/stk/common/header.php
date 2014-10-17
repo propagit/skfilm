@@ -34,28 +34,41 @@
                   <ul class="nav navbar-nav">
                     <?php 
                         $i=0;
-                        foreach($links as $link) { 
+                        foreach($links as $link) {
+							$active = ''; 
+							# check if this is the current link
                             $child = $this->Menu_model->get_child_links($link['id']); 
-
+							if ($this->uri->segment(1).'/'.$this->uri->segment(2) == $link['url']) {
+								$active = 'active';
+							}
                             if (!$child) { 
                     ?>
-                                <li><a href="<?=base_url()?><?=$link['url']?>"><?=$link['name']?></a></li>
+                                <li><a class="<?=$active;?>" href="<?=base_url()?><?=$link['url']?>"><?=$link['name']?></a></li>
                     <?php 
-                            } else{ 
-                            
+                            } else{
+								# check active link
+								foreach($child as $clink){
+									if(base_url().$this->uri->uri_string() == base_url().$clink['url']){
+										$active = 'active';
+									}
+								}
                     ?>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?=$link['name']?></a>
+                                <li class="dropdown stk-nav-dd">
+                                    <a href="#" class="dropdown-toggle <?=$active;?>" data-toggle="dropdown"><?=$link['name']?></a>
                                     <ul class="dropdown-menu" role="menu">
                                         <?php
                                             foreach($child as $childlink) {	
+												$sub_nav_active = '';
                                                 if($childlink['url'] == 'http://www.stkildafilmfestival.com.au/2014-s2/'){	
                                         ?>
                                                     <li> <a href="<?=$childlink['url']?>"><?=$childlink['name']?></a></li>
                                         <?php
                                                 }else{
+													if(base_url().$this->uri->uri_string() == base_url().$childlink['url']){
+														$sub_nav_active = 'sub_nav_active';
+													}
                                         ?>
-                                                    <li><a href="<?=base_url()?><?=$childlink['url']?>"><?=$childlink['name']?></a></li>
+                                                    <li class="<?=$sub_nav_active;?>"><a href="<?=base_url()?><?=$childlink['url']?>"><?=$childlink['name']?></a></li>
                                         <?php	
                                                 }
                                             } # foreach($child as ...)
