@@ -437,12 +437,13 @@ dl dd { float:right; position:relative; }
 }
 .subscribe-box input[type="text"]{
 	border:none; 
-	height:19px; 
+	height:24px; 
 	padding:3px; 
 	border-radius:5px; 
 	float:left; 
-	width:139px; 
+	width:80%; 
 	font-family:'Quicksand', sans-serif;	
+	padding-left:10px;
 }
 .subscribe-box input[type="button"]{
 	border:none; 
@@ -456,6 +457,7 @@ dl dd { float:right; position:relative; }
 	border-radius:0 5px 5px 0 ; 
 	font-weight:bold; 
 	height:25px;	
+	width:20%;
 }
 
 .btn-banner > p{

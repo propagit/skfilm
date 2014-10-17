@@ -2,8 +2,6 @@
     <div id="content">
     	<?=$page['content']?>
     </div>
-    <?php if(0){ ?>
-    
     <?php foreach($films as $film) { 
 		$genres = $this->Film_model->get_film_genres($film['id']); 
 		$genre = '';
@@ -89,5 +87,4 @@
     </div>
     <?php } ?>
     
-    <?php } ?>
 </div>

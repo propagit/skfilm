@@ -38,7 +38,7 @@
                     </div>
                     <div class="col-sm-6 col-xs-12 remove-gutters">
                         <div class="subscribe-box">
-                            <input type="text" id="email-footer" />
+                            <input type="text" id="email-footer" placeholder="subscribe - your@email-address" />
                             <input type="button" onclick="subscribe1('email-footer');" value="GO"/>
                         </div>
                         <div class="result_sub">
