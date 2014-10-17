@@ -360,8 +360,13 @@ dl dd { float:right; position:relative; }
 	font-size: 15px;
 	line-height: 11px;
 	font-weight: 600;
-	font-family: 'Karla', sans-serif;
-		
+	font-family: 'Karla', sans-serif;	
+}
+.stk-mob-nav .nav li > a{
+	padding-left:0 !important;		
+}
+.stk-mob-nav .nav li.dropdown ul.dropdown-menu li a{
+	padding-left:15px !important;		
 }
 .stk-nav .nav a:hover,
 .stk-nav .nav .open>a, 
@@ -370,8 +375,13 @@ dl dd { float:right; position:relative; }
 	background-color:transparent;
 	color:#00ffff;
 }
+.stk-mob-nav a.active,
 .stk-nav a.active{
 	color:#00ffff;
+}
+.stk-mob-nav .sub_nav_active > a,
+.stk-mob-nav .sub_nav_active > a:hover{
+	color:#00ffff !important;	
 }
 .stk-nav .sub_nav_active > a,
 .stk-nav .dropdown-menu>li>a:hover{
@@ -395,14 +405,15 @@ dl dd { float:right; position:relative; }
 	position: relative;
 	float: left;
 	width: 100%;
-	background-color: #382451;
+	background-color: transparent;
 	border-radius: 0;
 	margin-bottom: 15px;
 	border:0;
 	margin-top:0;
+	box-shadow:none;
 }
 .stk-mob-nav .dropdown-menu > li > a:hover{
-	background-color:#150529 !important;		
+	/*background-color:#150529 !important;	*/	
 }
 .stk-mob-nav button.btn-navbar{
 	display:block;
@@ -424,11 +435,12 @@ dl dd { float:right; position:relative; }
 .stk-mob-nav ul.nav > li a:hover,
 .stk-mob-nav ul.nav > li a.open,
 .stk-mob-nav ul.nav > li a:focus{
-	background-color:#382451;	
+	background-color: transparent;	
+	color:#00ffff;
 }
 
 .stk-mob-nav .dropdown-menu>li>a{
-	color: rgba(255,255,255,0.7);	
+	color: rgba(255,255,255,0.7);
 }
 .timer{
 	color:#fff; 
