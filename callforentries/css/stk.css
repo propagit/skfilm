@@ -622,13 +622,13 @@ span.sponsors-label{
 		width: 1000px;
 	 }
 	 .stk-nav .nav > li{
-			padding-right:44px;	
+			padding-right:36px;	
 	 }
   
 }
 @media (max-width:1199px){
 	.stk-nav .nav > li{
-		padding-right:38px;	
+		padding-right:30px;	
 	}	
 }
 @media(max-width:992px){
