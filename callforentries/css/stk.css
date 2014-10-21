@@ -442,6 +442,12 @@ dl dd { float:right; position:relative; }
 .stk-mob-nav .dropdown-menu>li>a{
 	color: rgba(255,255,255,0.7);
 }
+.timer-wrap{
+	float:left;
+	width:100%;
+	text-align:center;	
+	padding-bottom:20px;
+}
 .timer{
 	color:#fff; 
 	font-size:15px; 
@@ -452,8 +458,9 @@ dl dd { float:right; position:relative; }
 	padding-bottom:5px; 	
 }
 .mob-timer-label{
-	margin-top:-44px; 
+	margin-top:5px; 
 	color:#fff;	
+	margin-left:10px;
 }
 .subscribe-box{
 	height:25px; 
@@ -636,11 +643,12 @@ span.sponsors-label{
 		text-align:center;	
 	}
 	.timer{
-		float:left;
-		width:100%;
+		/*float:left;
+		width:100%;*/
 		margin-bottom:20px;
 		font-size:12px;	
 		border:none;
+		display:inline;
 	}
 	.social-icons{
 		margin-top:0;

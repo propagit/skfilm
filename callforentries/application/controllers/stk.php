@@ -98,7 +98,8 @@ class Stk extends CI_Controller {
 	
 		if($page == NULL || !$valid)
 		{
-			$this->load->view('stk/common/header-notfound',$data);
+			#$this->load->view('stk/common/header-notfound',$data);
+			$this->load->view('stk/common/header',$data);
 		}
 		else
 		{

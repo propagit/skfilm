@@ -148,11 +148,12 @@
                 </div>
             
             </div><!--stk-mob-nav-->
-            
-            <div class="timer_st timer">
-                000D 00H 00M 00S
+            <div class="timer-wrap">
+                <div class="timer_st timer">
+                    000D 00H 00M 00S
+                </div>
+                <span class="mob-timer-label"> - Until St Kilda Film Festival starts</span>
             </div>
-            <span class="mob-timer-label pull"> - Kilda Film Festival starts</span>
         </div>
         <!--end mob nav-->
     </div>
