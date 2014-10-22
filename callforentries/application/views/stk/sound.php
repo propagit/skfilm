@@ -701,7 +701,7 @@ Level 1<br/>
 232 Carlisle Street<br/>
 Balaclava<br/>
 VIC 3183<br/><br/>
-Entries MUST be postmarked or received by 5pm, January 31 2014
+Entries MUST be postmarked or received by 5pm, January 30, 2015
 </p>
                <br/>
              <p class="page_boldheading"><strong>PAYMENT OPTIONS</strong></p>
