@@ -43,7 +43,7 @@ Level 1<br />
 232 Carlisle Street<br />
 Balaclava<br />
 VIC 3183<br/>
-Entries MUST be postmarked or received by 5pm, January 31, 2014</p>
+Entries MUST be postmarked or received by 5pm, January 30, 2015</p>
 
 </div> 
 <br/>
@@ -135,7 +135,7 @@ Level 1<br />
 232 Carlisle Street<br />
 Balaclava<br />
 VIC 3183<br/>
-Entries MUST be postmarked or received by 5pm, January 31 2014</p>
+Entries MUST be postmarked or received by 5pm, January 30, 2015</p>
 
 </div>
 			<?php

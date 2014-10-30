@@ -55,7 +55,7 @@
                     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 remove-gutters">
                 		<span class="sponsors-label gov-partners">Government Partners</span>
                         <a class="col-lg-6 col-md-6 col-sm-6 col-xs-12 remove-gutters" href="http://film.vic.gov.au/www/html/7-home-page.asp" target="_blank"><img src="<?=base_url()?>img/sponsors/film-vic.png" /></a>
-                    	<a class="col-lg-6 col-md-6 col-sm-6 col-xs-12 remove-gutters vgap" href="http://www.screenaustralia.gov.au/" target="_blank"><img src="<?=base_url()?>img/sponsors/screen-aus.png"  /></a>
+                    	<a class="col-lg-6 col-md-6 col-sm-6 col-xs-12 remove-gutters screen-aus" href="http://www.screenaustralia.gov.au/" target="_blank"><img src="<?=base_url()?>img/sponsors/screen-aus.png"  /></a>
                     </div>
                 </div>
             </div><!--col-*-*-->

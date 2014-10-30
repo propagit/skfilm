@@ -606,7 +606,7 @@ span.sponsors-label{
 	font-family:'Quicksand',sans-serif;
 }
 .gov-partners{
-	padding-bottom:46px !important;	
+	padding-bottom:50px !important;	
 }
 .social-icons{
 	margin-top:40px;	
@@ -705,6 +705,9 @@ span.sponsors-label{
 	#content img{
 		width:100% !important;
 		height:auto !important;	
+	}
+	.screen-aus{
+		margin-top:20px;	
 	}
 }
 
