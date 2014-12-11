@@ -176,11 +176,13 @@ class Content_model extends CI_Model {
 	}
 	function get_all_soundkilda()
 	{
+		$this->db->order_by('id','desc');
 	    $query = $this->db->get('sound_form');
 		return $query->result_array();
 	}
 	function get_all_shortfilm()
 	{
+		$this->db->order_by('id','desc');
 	    $query = $this->db->get('short_film_form');
 		return $query->result_array();
 	}

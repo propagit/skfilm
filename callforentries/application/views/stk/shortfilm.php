@@ -726,12 +726,13 @@ There are <strong>two payment options</strong> for this application process – 
                 <table cellpadding="0" cellspacing="0" border="0">
                   <tr valign="top" height="30"><td valign="top"><input type="radio" name="Audio specifications" value="Stereo" /></td>
                       <td valign="top" width="10">&nbsp;</td>
-                      <td valign="top">Stereo <i>(A Mix with only Left and Right information - L/R)</i></td>
+                      <td valign="top">Stereo <i>(Left & Right)</i></td>
                   </tr>
-                  <tr height="40" valign="top"><td valign="top"><input type="radio" name="Audio specifications" value="Dolby Surround" /></td>
+                  <tr height="40" valign="top"><td valign="top"><input type="radio" name="Audio specifications" value="Surround" /></td>
                       <td width="10">&nbsp;</td>
-                      <td>Dolby Surround <i>(A Mix delivered on NON film formats with Left, Centre, Right and Surround information encoded into 2 channels called Left Total and Right Total – LtRt)</i></td>
+                      <td> Surround <i>(Left, Right, Centre, LFE, Left Surround, Right Surround)</i></td>
                   </tr>
+                  <?php if(0){ ?>
                   <tr height="40" valign="top"><td valign="top"><input type="radio" name="Audio specifications" value="5.1 Discrete" /></td>
                       <td width="10">&nbsp;</td>
                       <td>5.1 Discrete <i>(A Mix delivered on NON film formats with Left, Right, Centre, LFE (Sub Bass), Left Surround, and Right Surround)</i></td>
@@ -748,6 +749,7 @@ There are <strong>two payment options</strong> for this application process – 
                       <td width="10">&nbsp;</td>
                       <td>Dolby Digital <i>(A 35mm Film only format –with a 5.1 Mix and Dolby Stereo also on the print)</i></td>
                   </tr>
+                  <?php } ?>
                 </table>
               </div>
              <br/>
