@@ -19,10 +19,10 @@ body {
 }
 
 img { border:0; }
-input { font-family:Quicksand, sans-serif; font-size:14px; border:none; border-radius:5px; padding:3px;}
-select { font-family:Quicksand, sans-serif; font-size:14px; border:none; border-radius:5px; padding:3px;}
-textarea { font-family:Quicksand, sans-serif; font-size:14px; padding-left:3px; padding-top:3px; width:320px; border:none; border-radius:5px;}
-select option { padding:0 3px; }
+input { font-family:Quicksand, sans-serif; font-size:14px; border:none; border-radius:5px; padding:3px; color:#000;}
+select { font-family:Quicksand, sans-serif; font-size:14px; border:none; border-radius:5px; padding:3px;color:#000;}
+textarea { font-family:Quicksand, sans-serif; font-size:14px; padding-left:3px; padding-top:3px; width:320px; border:none; border-radius:5px;color:#000;}
+select option { padding:0 3px; color:#000;}
 dl { clear:both; }
 dl dt { float:left; }
 dl dd { float:right; position:relative; }
